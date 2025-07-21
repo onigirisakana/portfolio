@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background: linear-gradient(to bottom, #16308d, #5052c1);
+  color: aliceblue;
+  display: flex;
+  position: sticky;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  font-size: 25px;
+  padding: 15px;
+}
+.h2 h2 {
+    margin-left: 15px;
+}
+.team {
+  border-radius: 30px;
+  display: flex;
+  margin-bottom: 30px;
+}
+.team-info {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+}
+.player {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+.player-card {
+  margin: auto;
+  border-radius: 30px;
+  width: 200px;
+}
+body {
+  background: linear-gradient(to bottom, #3b4097, #020107);
+  color: white;
+}

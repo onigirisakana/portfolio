@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: linear-gradient(to bottom, #44f05d, #18be06);
+  font-size: 40px;
+  padding: 15px;
+}
+.team {
+  border-radius: 30px;
+  display: flex;
+  margin-bottom: 30px;
+}
+.team-info {
+  margin-left: 15px;
+  display: flex;
+  font-size: 25px;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+}
+body {
+  background: linear-gradient(to bottom, #a1d154, #020107);
+  color: white;
+}
